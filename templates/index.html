@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>KGB Worksheet Generator</title></head>
+<body>
+<h1>KGB Worksheet Generator</h1>
+<form method="post">
+<label>Title: <input type="text" name="title" required></label><br>
+<label>Composer: <input type="text" name="composer" required></label><br>
+<label>Key: <input type="text" name="key" required></label><br>
+<label>Instruments:</label><br>
+<input type="checkbox" name="instruments" value="Keyboard" checked> Keyboard<br>
+<input type="checkbox" name="instruments" value="Guitar" checked> Guitar<br>
+<input type="checkbox" name="instruments" value="Bass" checked> Bass<br><br>
+<label>Section 1 Name: <input type="text" name="section1_name" value="Verse"></label><br>
+<label>Chords: <input type="text" name="section1_chords"></label><br><br>
+<label>Section 2 Name: <input type="text" name="section2_name" value="Chorus"></label><br>
+<label>Chords: <input type="text" name="section2_chords"></label><br><br>
+<label>Section 3 Name: <input type="text" name="section3_name" value="Bridge"></label><br>
+<label>Chords: <input type="text" name="section3_chords"></label><br><br>
+<button type="submit">Generate Worksheet</button>
+</form>
+</body>
+</html>
